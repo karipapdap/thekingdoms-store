@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Kingdoms Store</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-[Poppins]">
+  <!-- Header -->
+  <header class="bg-indigo-600 text-white p-6 shadow-md">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-3xl font-bold">The Kingdoms Store</h1>
+      <nav class="space-x-6 text-lg">
+        <a href="#home" class="hover:underline">Home</a>
+        <a href="#packages" class="hover:underline">Packages</a>
+        <a href="#contact" class="hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="bg-indigo-700 text-white py-20">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-4">Support The Kingdoms Server</h2>
+      <p class="text-lg mb-8">Dapatkan rank, item khas, dan banyak lagi untuk pengalaman lebih menarik!</p>
+      <a href="#packages" class="bg-white text-indigo-700 px-6 py-3 rounded-full font-semibold shadow hover:bg-gray-200">View Packages</a>
+    </div>
+  </section>
+
+  <!-- Packages Section -->
+  <section id="packages" class="py-20">
+    <div class="max-w-6xl mx-auto text-center mb-10">
+      <h2 class="text-3xl font-bold text-gray-800">Store Packages</h2>
+      <p class="text-gray-600">Pilih pakej yang anda inginkan untuk menyokong server.</p>
+    </div>
+
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Package Card 1 -->
+      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-xl transition">
+        <h3 class="text-2xl font-bold mb-2">Rank Knight</h3>
+        <p class="text-gray-600 mb-4">Akses asas + title unik.</p>
+        <p class="text-3xl font-bold mb-6">RM10</p>
+        <button class="w-full bg-indigo-600 text-white py-3 rounded-xl hover:bg-indigo-700">Purchase</button>
+      </div>
+
+      <!-- Package Card 2 -->
+      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-xl transition">
+        <h3 class="text-2xl font-bold mb-2">Rank Guardian</h3>
+        <p class="text-gray-600 mb-4">Semua Knight + bonus item.</p>
+        <p class="text-3xl font-bold mb-6">RM25</p>
+        <button class="w-full bg-indigo-600 text-white py-3 rounded-xl hover:bg-indigo-700">Purchase</button>
+      </div>
+
+      <!-- Package Card 3 -->
+      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-xl transition">
+        <h3 class="text-2xl font-bold mb-2">Rank King</h3>
+        <p class="text-gray-600 mb-4">Full access + banyak kelebihan eksklusif.</p>
+        <p class="text-3xl font-bold mb-6">RM50</p>
+        <button class="w-full bg-indigo-600 text-white py-3 rounded-xl hover:bg-indigo-700">Purchase</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-gray-200 py-16">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-4">Contact Us</h2>
+      <p class="text-gray-700 mb-6">Ada masalah atau pertanyaan? Hubungi kami melalui Discord!</p>
+      <a href="#" class="bg-indigo-600 text-white px-6 py-3 rounded-full font-semibold shadow hover:bg-indigo-700">Join Discord</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white text-center py-6 mt-10">
+    <p>&copy; 2025 The Kingdoms. All rights reserved.</p>
+  </footer>
+</body>
+</html>
